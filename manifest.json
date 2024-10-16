@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Codingbat styler",
+  "version": "0.1.0",
+  "description": "Makes codingbat not so ugly",
+  "web_accessible_resources": ["star1.png","bar1.png","bar2.png"],
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["https://codingbat.com/*"]
+  }]
+ 
+}
